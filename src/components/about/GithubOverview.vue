@@ -14,8 +14,8 @@
         class="pa-1 text-center"
       >
         <div class="rounded shadow bg-white pa-1">
-          <div class="c-primary fs-4 text-w-bold">+20</div>
-          <div>Projects</div>
+          <div class="fs-4 text-w-bold">+500</div>
+          <div class="c-primary">Projects</div>
         </div>
       </vs-col>
     </vs-row>
