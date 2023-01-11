@@ -1,9 +1,9 @@
 <template>
-  <div class="ma-3">
+  <div class="px-3">
     <div class="fs-1">Hi! I am</div>
     <div class="fs-1 text-w-bold">{{ aboutInfo.shortName }}</div>
     <div class="fs-4">{{ aboutInfo.title }}</div>
-    <div class="mt-3">{{ aboutInfo.shortDescription }}</div>
+    <div class="mt-2">{{ aboutInfo.shortDescription }}</div>
     <vs-row class="mt-2 mb-2" justify="space-between">
       <vs-col lg="6" md="12" sm="12" xs="12">
         <div class="center-item mb-1">
