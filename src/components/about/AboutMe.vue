@@ -10,9 +10,7 @@
       </vs-col>
       <vs-col lg="6" md="12" sm="12" xs="12" class="rounded shadow bg-white">
         <div class="pa-2">
-          <div class="progress rounded" role="progressbar">
-            <div class="progress-bar bg-dark rounded" :value="aboutInfo.age"></div>
-          </div>
+          <Skills />
         </div>
       </vs-col>
     </vs-row>
@@ -22,8 +20,9 @@
 
 <script>
 import GithubOverview from './GithubOverview.vue'
+import Skills from './Skills.vue'
 export default {
-  components: { GithubOverview },
+  components: { GithubOverview, Skills },
   name: 'AboutMe',
   data: () => ({
     aboutInfo: {
