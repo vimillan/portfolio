@@ -149,7 +149,10 @@ body {
 
 .progress-moved {
     width: var(--percentage);
-    animation: progressAnimation 3s;
+    animation: progressAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 3;
 }
 
 @keyframes progressAnimation {
