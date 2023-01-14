@@ -10,7 +10,7 @@
         <vs-col lg="1" class="text-center">20%</vs-col>
       </vs-row>
       <div class="progress rounded" role="progressbar">
-        <div class="progress-bar bg-dark rounded" value="20"></div>
+        <div class="progress-bar progress-moved bg-dark rounded" style="--percentage: 10%;"></div>
       </div>
     </div>
     <vs-pagination
