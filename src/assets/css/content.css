@@ -31,6 +31,10 @@ body {
     height: 70vh;
 }
 
+.full-content {
+    height: 50vh;
+}
+
 .fit-height {
     height: 100%;
 }
