@@ -1,0 +1,171 @@
+{
+  "navigation": {
+    "projects": "Projects",
+    "experience": "Experience",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get in touch"
+  },
+  "hero": {
+    "eyebrow": "UX Engineer · UI Development Lead",
+    "titlePrefix": "I design interfaces that connect",
+    "titleHighlight": "UX, clarity, and real development",
+    "description": "I design digital experiences and build embedded interfaces in Angular and Vue with a clear, responsive, and implementation-ready visual base.",
+    "primaryCta": "See projects",
+    "downloadCV": "Download resume",
+    "supportCardTitle": "Focus",
+    "supportCardText": "UX, UI, functional documentation, operational leadership, and manual testing in the same workflow."
+  },
+  "about": {
+    "title": "About me",
+    "intro": "I work between UX, interface development, and delivery coordination.",
+    "paragraphs": [
+      "My main focus is turning requirements into clear screens, consistent flows, and reusable components that respect user experience and the real context of each system.",
+      "I like structured work, visual order, and a strong base so front-end teams can integrate business logic without starting from zero."
+    ],
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Years building UI and UX"
+      },
+      {
+        "value": "3",
+        "label": "Combined roles: UX, UI, and leadership"
+      },
+      {
+        "value": "B1",
+        "label": "Functional English moving to B2"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "intro": "A path focused on product thinking, visual structure, and implementation-ready interfaces.",
+    "items": [
+      {
+        "role": "UX Engineer | Project lead and UI developer",
+        "company": "GM Robotic",
+        "location": "Morelos, Remote",
+        "period": "February 2025 – Present",
+        "highlights": [
+          "Business and development alignment through requirement analysis with stakeholders.",
+          "Lower implementation ambiguity through flows and Figma prototypes.",
+          "Better system traceability through UML documentation and test cases.",
+          "Faster front-end integration through Angular interfaces with reusable components.",
+          "Structured team workflow through operational leadership and priority planning.",
+          "Fewer delivery errors through documented functional testing and issue tracking."
+        ]
+      },
+      {
+        "role": "Front-end Developer",
+        "company": "Erillam Healthcare",
+        "location": "Morelos, On site",
+        "period": "September 2024 – February 2025",
+        "highlights": [
+          "Stronger user experience through front-end development in Vue 3, JavaScript, and CSS.",
+          "Visual consistency and scalability through reusable components.",
+          "Better experience through visual improvement of existing screens.",
+          "Interface standardization through visual guidelines adopted in the system.",
+          "Field validation of solutions to keep alignment with real operation needs."
+        ]
+      },
+      {
+        "role": "UX Designer and HTML Developer",
+        "company": "GM Robotic",
+        "location": "Morelos, On site",
+        "period": "April 2023 – July 2024",
+        "highlights": [
+          "Interactive prototypes in Figma showing complete flows and real app behavior.",
+          "Better data reading through chart integration inside interfaces built with JavaScript libraries.",
+          "Clearer requirements through functional documentation with UML.",
+          "Visual consistency through responsive UI components for Angular CLI."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Selected projects",
+    "intro": "A small selection of interfaces where I mixed visual criteria, structure, and functional thinking.",
+    "items": [
+      {
+        "category": "UX / Analytics",
+        "title": "Survey Analytics Dashboard",
+        "summary": "An analytics panel with clear structure, filters, visual hierarchy, and charts made for quick reading.",
+        "stack": ["Figma", "Bootstrap 5", "Chart.js", "Responsive UI"],
+        "contributions": [
+          "Visual architecture of the module",
+          "Sidebar navigation and analytics sections",
+          "Data hierarchy for operational reading"
+        ],
+        "accent": "blue",
+        "image": "/images/hero-reference.png"
+      },
+      {
+        "category": "UI System",
+        "title": "Industrial Monitoring Dashboard",
+        "summary": "A dashboard view for variable tracking with strong clarity, useful density, and continuous reading.",
+        "stack": ["Angular", "SCSS", "Charts", "UI Components"],
+        "contributions": [
+          "Main layout design",
+          "Reusable visual block system",
+          "Color and reading state definition"
+        ],
+        "accent": "green",
+        "image": "/images/hero-reference.png"
+      },
+      {
+        "category": "Portfolio Concept",
+        "title": "Personal Brand Interface",
+        "summary": "A visual exploration for a personal brand with high contrast, clean composition, and a professional focus.",
+        "stack": ["Vue 3", "Bootstrap 5", "Custom CSS"],
+        "contributions": [
+          "Hero visual direction",
+          "Base section system",
+          "Preparation for bilingual version"
+        ],
+        "accent": "violet",
+        "image": "/images/hero-reference.png"
+      }
+    ]
+  },
+  "process": {
+    "title": "How I work",
+    "steps": [
+      {
+        "title": "Understand",
+        "text": "I collect requirements, system context, business needs, and real priorities."
+      },
+      {
+        "title": "Design",
+        "text": "I turn information into wireframes, prototypes, and clear visual decisions."
+      },
+      {
+        "title": "Build",
+        "text": "I develop UI in Angular or Vue with clean structure, components, and scalable styles."
+      },
+      {
+        "title": "Review",
+        "text": "I document, test, and adjust to reduce errors and deliver a solid product base."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "If you need a UX Engineer with visual judgment, structural thinking, and real technical base, let’s talk.",
+    "primaryLabel": "Send email",
+    "secondaryLabel": "See GitHub"
+  },
+  "footer": {
+    "text": "Portfolio built in Vue 3 with Bootstrap 5, JSON-driven content, and an editable structure ready to grow with you."
+  },
+  "labels": {
+    "light": "Light",
+    "dark": "Dark",
+    "spanish": "ES",
+    "english": "EN",
+    "skills": "Stack",
+    "contributions": "Contributions",
+    "certifications": "Certifications",
+    "availability": "Availability"
+  }
+}

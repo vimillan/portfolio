@@ -1,0 +1,139 @@
+:root {
+  --vm-primary: #5f6fff;
+  --vm-primary-rgb: 95, 111, 255;
+  --vm-secondary: #1d4ed8;
+  --vm-accent: #7c3aed;
+  --vm-success: #2cb66f;
+  --vm-warning: #f59e0b;
+  --vm-danger: #ef4444;
+  --vm-dark: #050816;
+  --vm-dark-soft: #0b1123;
+  --vm-dark-card: rgba(13, 18, 37, 0.7);
+  --vm-light: #f5f7fb;
+  --vm-light-card: rgba(255, 255, 255, 0.84);
+  --vm-border: rgba(255, 255, 255, 0.12);
+  --vm-border-dark: rgba(15, 23, 42, 0.12);
+  --vm-text: #f3f6ff;
+  --vm-text-muted: #9aa6c4;
+  --vm-heading: #ffffff;
+  --vm-shadow: 0 24px 80px rgba(2, 8, 23, 0.28);
+  --vm-radius-xl: 28px;
+  --vm-radius-lg: 20px;
+  --vm-radius-md: 16px;
+  --vm-radius-sm: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--page-bg);
+  color: var(--page-text);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border: 0;
+}
+
+.portfolio-section {
+  position: relative;
+  padding: 5rem 0;
+}
+
+.section-heading {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.section-kicker {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.section-title {
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--heading-text);
+}
+
+.section-description,
+.content-paragraph,
+.timeline-list li,
+.project-summary,
+.process-text,
+.meta-card span,
+.support-card p,
+.project-list li,
+.hero-description,
+.portfolio-footer p {
+  color: var(--muted-text);
+}
+
+.glass-panel {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--vm-radius-xl);
+  box-shadow: var(--vm-shadow);
+  backdrop-filter: blur(14px);
+}
+
+.portfolio-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+  background: var(--badge-bg);
+  border: 1px solid var(--panel-border);
+  color: var(--heading-text);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.small-badge {
+  padding: 0.45rem 0.8rem;
+  font-size: 0.76rem;
+}
+
+.hero-btn {
+  min-height: 52px;
+  border-radius: 999px;
+  padding: 0.85rem 1.4rem;
+  font-weight: 600;
+}
+
+.alt-btn {
+  border-color: var(--panel-border);
+  color: var(--heading-text);
+}
+
+.alt-btn:hover {
+  color: var(--heading-text);
+}
+
+@media (max-width: 991.98px) {
+  .portfolio-section {
+    padding: 4rem 0;
+  }
+}

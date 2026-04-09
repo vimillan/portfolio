@@ -1,0 +1,171 @@
+{
+  "navigation": {
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "about": "Sobre mí",
+    "contact": "Contacto",
+    "cta": "Hablemos"
+  },
+  "hero": {
+    "eyebrow": "UX Engineer · UI Development Lead",
+    "titlePrefix": "Diseño interfaces que conectan",
+    "titleHighlight": "UX, claridad y desarrollo real",
+    "description": "Diseño experiencias digitales y construyo interfaces embebidas en Angular y Vue con una base visual clara, responsiva y lista para integrarse a producto.",
+    "primaryCta": "Ver proyectos",
+    "downloadCV": "Descargar CV",
+    "supportCardTitle": "Enfoque",
+    "supportCardText": "UX, UI, documentación funcional, liderazgo operativo y testing manual dentro del mismo flujo de trabajo."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "intro": "Trabajo en la intersección entre UX, desarrollo de interfaces y coordinación de entregables.",
+    "paragraphs": [
+      "Mi enfoque principal está en convertir requerimientos en pantallas claras, flujos consistentes y componentes reutilizables que respeten la experiencia de usuario y el contexto real del sistema.",
+      "Me gusta trabajar con estructura, orden visual y una base sólida para que el frontend pueda integrar lógica funcional sin empezar desde cero."
+    ],
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Años construyendo UI y UX"
+      },
+      {
+        "value": "3",
+        "label": "Roles combinados: UX, UI y liderazgo"
+      },
+      {
+        "value": "B1",
+        "label": "Inglés funcional en progreso a B2"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "intro": "Una trayectoria orientada a producto, estructura visual y desarrollo de interfaces listas para integrarse.",
+    "items": [
+      {
+        "role": "UX Engineer | Líder de proyecto y desarrollador UI",
+        "company": "GM Robotic",
+        "location": "Morelos, Remoto",
+        "period": "Febrero 2025 – Presente",
+        "highlights": [
+          "Alineación de negocio y desarrollo mediante análisis de requerimientos con stakeholders.",
+          "Reducción de ambigüedad en implementación a través de diseño de flujos y prototipos en Figma.",
+          "Optimización de trazabilidad del sistema mediante documentación con UML y casos de prueba.",
+          "Aceleración de integración frontend mediante desarrollo de interfaces en Angular con componentes reutilizables.",
+          "Estructuración del flujo de trabajo mediante liderazgo operativo y gestión de prioridades del equipo.",
+          "Disminución de errores en entrega mediante ejecución de testing funcional documentado y seguimiento de incidencias."
+        ]
+      },
+      {
+        "role": "Desarrolladora Frontend",
+        "company": "Erillam Healthcare",
+        "location": "Morelos, Presencial",
+        "period": "Septiembre 2024 – Febrero 2025",
+        "highlights": [
+          "Fortalecimiento de experiencia de usuario mediante desarrollo frontend en Vue 3, JavaScript y CSS.",
+          "Consistencia visual y escalabilidad aseguradas mediante creación de componentes reutilizables.",
+          "Elevación de la experiencia de usuario mediante transformación visual de pantallas existentes.",
+          "Estandarización de la interfaz mediante definición de lineamientos visuales adoptados en el sistema.",
+          "Validación de soluciones en campo, asegurando alineación con necesidades reales de operación."
+        ]
+      },
+      {
+        "role": "Diseñadora UX y Desarrolladora HTML",
+        "company": "GM Robotic",
+        "location": "Morelos, Presencial",
+        "period": "Abril 2023 – Julio 2024",
+        "highlights": [
+          "Diseño de prototipos interactivos en Figma que representan flujos completos y comportamiento real de la aplicación.",
+          "Optimización en la interpretación de datos mediante integración de gráficos en interfaces desarrolladas con librerías de JavaScript.",
+          "Claridad en requerimientos mediante documentación funcional con UML.",
+          "Estandarización visual mediante implementación de componentes UI con enfoque responsivo para Angular CLI."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos destacados",
+    "intro": "Una selección de interfaces donde combiné criterio visual, estructura y enfoque funcional.",
+    "items": [
+      {
+        "category": "UX / Analytics",
+        "title": "Survey Analytics Dashboard",
+        "summary": "Panel analítico con estructura clara, filtros, jerarquía visual y gráficas orientadas a lectura rápida.",
+        "stack": ["Figma", "Bootstrap 5", "Chart.js", "Responsive UI"],
+        "contributions": [
+          "Arquitectura visual del módulo",
+          "Diseño de navegación lateral y secciones de análisis",
+          "Jerarquía de datos para lectura operativa"
+        ],
+        "accent": "blue",
+        "image": "/images/hero-reference.png"
+      },
+      {
+        "category": "UI System",
+        "title": "Industrial Monitoring Dashboard",
+        "summary": "Vista dashboard orientada a seguimiento de variables, priorizando claridad, densidad útil y lectura continua.",
+        "stack": ["Angular", "SCSS", "Charts", "UI Components"],
+        "contributions": [
+          "Diseño de layout principal",
+          "Construcción de bloques visuales reutilizables",
+          "Definición de estados de color y lectura"
+        ],
+        "accent": "green",
+        "image": "/images/hero-reference.png"
+      },
+      {
+        "category": "Portfolio Concept",
+        "title": "Personal Brand Interface",
+        "summary": "Exploración visual para una marca personal con contraste alto, composición limpia y foco en presentación profesional.",
+        "stack": ["Vue 3", "Bootstrap 5", "Custom CSS"],
+        "contributions": [
+          "Dirección visual del hero",
+          "Sistema base de secciones",
+          "Preparación para versión bilingüe"
+        ],
+        "accent": "violet",
+        "image": "/images/hero-reference.png"
+      }
+    ]
+  },
+  "process": {
+    "title": "Cómo trabajo",
+    "steps": [
+      {
+        "title": "Entender",
+        "text": "Recojo requerimientos, contexto del sistema, necesidades de negocio y prioridades reales."
+      },
+      {
+        "title": "Diseñar",
+        "text": "Transformo la información en wireframes, prototipos y decisiones visuales claras."
+      },
+      {
+        "title": "Construir",
+        "text": "Desarrollo UI en Angular o Vue con estructura limpia, componentes y estilos escalables."
+      },
+      {
+        "title": "Revisar",
+        "text": "Documento, pruebo y ajusto para reducir errores y entregar una base sólida al producto."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Si buscas una UX Engineer con enfoque visual, criterio de estructura y base técnica real, aquí estoy.",
+    "primaryLabel": "Escríbeme",
+    "secondaryLabel": "Explorar GitHub"
+  },
+  "footer": {
+    "text": "Portafolio desarrollado en Vue 3 con Bootstrap 5, JSON para contenido y una estructura editable para crecer contigo."
+  },
+  "labels": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "spanish": "ES",
+    "english": "EN",
+    "skills": "Tecnologías",
+    "contributions": "Aportaciones",
+    "certifications": "Certificaciones",
+    "availability": "Disponibilidad"
+  }
+}

@@ -1,0 +1,56 @@
+body,
+html {
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.center-item {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.point-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.no-fill {
+  background: transparent !important;
+}
+
+.no-wrap {
+  flex-wrap: nowrap !important;
+}
+
+.no-grab {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

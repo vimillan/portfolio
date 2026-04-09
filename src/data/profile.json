@@ -1,0 +1,93 @@
+{
+  "name": "Violeta Millán",
+  "headline": "UX Engineer | UI Development Lead",
+  "location": "Morelos, México",
+  "email": "vimillanvi@gmail.com",
+  "phone": "+52 777 225 3857",
+  "brand": "Violeta Millán",
+  "availability": {
+    "es": "Disponible para oportunidades remotas y proyectos freelance selectivos.",
+    "en": "Open to remote roles and selected freelance projects."
+  },
+  "socialLinks": [
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/violeta-millan",
+      "icon": "bi bi-linkedin"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/vimillan",
+      "icon": "bi bi-github"
+    },
+    {
+      "label": "Dribbble",
+      "url": "https://dribbble.com/vimillan",
+      "icon": "bi bi-dribbble"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:vimillanvi@gmail.com",
+      "icon": "bi bi-envelope"
+    }
+  ],
+  "heroBadges": [
+    "Figma",
+    "Vue 3",
+    "Angular CLI",
+    "Bootstrap 5",
+    "SCSS",
+    "TypeScript",
+    "Testing"
+  ],
+  "skills": {
+    "frontend": [
+      "Angular CLI v19",
+      "Vue.js 2 y 3",
+      "React",
+      "HTML",
+      "SCSS",
+      "TypeScript",
+      "JavaScript",
+      "Bootstrap 5"
+    ],
+    "ux": [
+      "Figma",
+      "UI Design",
+      "UX Design",
+      "Wireframes",
+      "Interactive Prototypes",
+      "Responsive Systems"
+    ],
+    "others": [
+      "APIs REST",
+      "CRUD",
+      "Git",
+      "UML",
+      "Manual Testing",
+      "Documentation"
+    ]
+  },
+  "certifications": [
+    {
+      "title": "Google AI Essentials",
+      "year": "2024"
+    },
+    {
+      "title": "Create High-Fidelity Designs and Prototypes in Figma by Google",
+      "year": "2024"
+    },
+    {
+      "title": "Work with Components in Figma",
+      "year": "2024"
+    },
+    {
+      "title": "Foundations of User Experience (UX) Design by Google",
+      "year": "2023"
+    },
+    {
+      "title": "TOEFL ITP English B1, 507 points",
+      "year": "2022"
+    }
+  ]
+}
