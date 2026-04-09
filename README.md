@@ -43,8 +43,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## Notes
-- Update the CV path in `App.vue` when your final PDF is ready.
-- Replace project images in `public/images/` and adjust the JSON references.
-- If you want to add routing later, this structure can grow without rewriting content files.
