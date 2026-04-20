@@ -12,11 +12,16 @@
             <p class="hero-description">{{ content.hero.description }}</p>
 
             <div class="hero-actions center-item gap-3">
-              <a class="btn btn-primary hero-btn" href="#projects">{{
-                content.hero.primaryCta
-              }}</a>
               <a
-                class="btn btn-outline-light hero-btn alt-btn"
+                type="button"
+                class="btn btn-primary hero-btn center mb-3"
+                href="#projects"
+              >
+                {{ content.hero.primaryCta }}
+              </a>
+              <a
+                type="button"
+                class="btn btn-outline-light hero-btn alt-btn center mb-3"
                 :href="cvUrl"
                 target="_blank"
                 rel="noreferrer"
@@ -25,21 +30,21 @@
               </a>
             </div>
 
-            <div class="badge-row center-item gap-2">
-              <span
+            <div class="badge-row center-item gap-2 mb-3">
+              <div
                 v-for="badge in profile.heroBadges"
                 :key="badge"
-                class="portfolio-badge"
+                class="portfolio-badge center"
               >
                 {{ badge }}
-              </span>
+              </div>
             </div>
 
-            <div class="hero-social center-item gap-3">
+            <div class="hero-social center-item gap-4">
               <a
                 v-for="item in profile.socialLinks"
                 :key="item.label"
-                class="social-pill"
+                class="social-pill center gap-2"
                 :href="item.url"
                 target="_blank"
                 rel="noreferrer"
@@ -62,9 +67,9 @@
             <div class="hero-device hero-device-right">
               <div class="device-screen info-card-screen">
                 <div class="support-card">
-                  <span class="support-card-label">{{
-                    content.hero.supportCardTitle
-                  }}</span>
+                  <span class="support-card-label">
+                    {{ content.hero.supportCardTitle }}
+                  </span>
                   <p>{{ content.hero.supportCardText }}</p>
                   <div class="mini-stats">
                     <div class="mini-stat">
@@ -84,7 +89,7 @@
               </div>
             </div>
             <div class="floating-logo-card point-center">
-              <BrandMark />
+              <BrandMark invert custom-class="img-60" />
             </div>
           </div>
         </div>

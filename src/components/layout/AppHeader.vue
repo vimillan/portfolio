@@ -5,13 +5,13 @@
         <a class="brand-link center-item no-wrap" href="#top">
           <BrandMark />
           <div>
-            <span class="brand-name d-block">{{ profile.brand }}</span>
-            <span class="brand-role d-block">{{ profile.headline }}</span>
+            <div class="brand-name mb-1">{{ profile.brand }}</div>
+            <div class="brand-role">{{ profile.headline }}</div>
           </div>
         </a>
 
         <div class="header-actions center-item gap-2">
-          <nav class="nav-links d-none d-lg-flex center-item no-wrap">
+          <nav class="nav-links center-item no-wrap">
             <a v-for="item in navItems" :key="item.href" :href="item.href">{{ item.label }}</a>
           </nav>
 
