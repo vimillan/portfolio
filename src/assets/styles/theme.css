@@ -53,13 +53,13 @@
 }
 
 .brand-name {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .brand-role {
-  font-size: 0.78rem;
+  font-size: 0.90rem;
   color: var(--muted-text);
 }
 
@@ -141,7 +141,7 @@
 }
 
 .hero-copy {
-  max-width: 640px;
+  max-width: 600px;
 }
 
 .hero-eyebrow {
@@ -163,7 +163,7 @@
 
 .hero-title-base,
 .hero-title-accent {
-  font-size: clamp(2.7rem, 5vw, 5.4rem);
+  font-size: clamp(2.3rem, 4vw, 4.6rem);
   line-height: 0.98;
   font-weight: 800;
 }
@@ -297,8 +297,6 @@
 
 .brand-mark {
   position: relative;
-  width: 36px;
-  height: 36px;
 }
 
 .leaf {
