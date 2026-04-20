@@ -36,7 +36,27 @@
         "value": "B1",
         "label": "Functional English moving to B2"
       }
-    ]
+    ],
+    "impact": {
+      "title": "Impact",
+      "items": [
+        {
+          "icon": "bi bi-bezier2",
+          "title": "Less ambiguity",
+          "description": "Interactive Figma prototypes to validate structure and flow before development."
+        },
+        {
+          "icon": "bi bi-boxes",
+          "title": "Faster integration",
+          "description": "Reusable components and visual bases ready to integrate with functional logic."
+        },
+        {
+          "icon": "bi bi-diagram-3",
+          "title": "Better clarity",
+          "description": "Requirements documented with functional structure and traceability."
+        }
+      ]
+    }
   },
   "experience": {
     "title": "Experience",

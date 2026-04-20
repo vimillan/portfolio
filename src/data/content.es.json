@@ -36,7 +36,27 @@
         "value": "B1",
         "label": "Inglés funcional en progreso a B2"
       }
-    ]
+    ],
+    "impact": {
+      "title": "Impacto",
+      "items": [
+        {
+          "icon": "bi bi-bezier2",
+          "title": "Menos ambigüedad",
+          "description": "Prototipos interactivos en Figma para validar estructura y flujo antes de desarrollo."
+        },
+        {
+          "icon": "bi bi-boxes",
+          "title": "Integración más ágil",
+          "description": "Componentes reutilizables y bases visuales listas para integrarse con lógica funcional."
+        },
+        {
+          "icon": "bi bi-diagram-3",
+          "title": "Mayor claridad",
+          "description": "Requerimientos documentados con estructura funcional y trazabilidad."
+        }
+      ]
+    }
   },
   "experience": {
     "title": "Experiencia",
